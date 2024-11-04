@@ -1,0 +1,87 @@
+/* section heading */
+.section-heading1{
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width:fit-content;
+    color:black;
+}
+.cart{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.details{
+    border-right:1px solid brown;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+    position: relative;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.details:hover {
+  transform: translateY(-5px);
+}
+
+.details img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid brown;
+    object-fit: cover;
+}
+.card-image{
+    position: absolute;
+    top:-50px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+.details h2{
+    margin-bottom: 25px;;
+}
+.details p{
+    /* font-family: roboto; */
+}
+
+/* About company */
+.popular {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  
+  .popular-section-content li {
+    margin-top: 16px;
+    list-style-position: inside;
+  }
+  .popular .section-description {
+    width: auto;
+    text-align: start;
+  }
+  
+  .popular .btn-primary {
+    margin-top: 30px;
+  }
+.popular-img-container img{
+    max-height:500px;
+    max-width: 450px;
+    border-radius: 6px;
+
+  }
+
+  @media (max-width: 600px) {
+    .popular-img-container img{
+      max-height:500px;
+      max-width: 300px; 
+      border-radius: 5px;
+      margin-left: 30px;
+  }
+}

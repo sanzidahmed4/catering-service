@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry | contact</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/contct.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- style="position: absolute; top: 0; width: 100%; -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Hungry</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                  </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- contact form-->
+      <div class="contain">
+
+        <div class="wrapper">
+      
+          <div class="form">
+            <h4>GET IN TOUCH</h4>
+            <h2 class="form-headline">Send us a message</h2>
+            <form id="submit-form" action="">
+              <p>
+                <input id="name" class="form-input" type="text" placeholder="Your Name*">
+              </p>
+              <p>
+                <input id="email" class="form-input" type="email" placeholder="Your Email*">
+              </p>
+              <p class="full-width">
+                <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+              </p>
+              <p class="full-width">
+                <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+              </p>
+              <p class="full-width">
+                <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+              </p>
+              <p class="full-width">
+                <input type="submit" class="submit-btn" value="Submit" onclick="alert('Submitted success')">
+                <button class="reset-btn" onclick="alert('Reset success')">Reset</button>
+              </p>
+            </form>
+          </div>
+      
+          <div class="contacts contact-wrapper">
+      
+            <ul>
+              <span class="hightlight-contact-info">
+                <li class="email-info">Contact Info</li>
+                
+              </span>
+              <li>We will not share your information with anyone. Feel free to share with us!</li>
+              
+              <span class="hightlight-contact-info">
+                <li class="email-info">Email:</li>
+                <li> <span class="highlight-text">imhungry@gmail.com</span></li>
+                <li class="email-info">Phone:</li>
+                <li> <span class="highlight-text">+880 123 4567 890</span></li>
+                <li class="email-info">Location:</li>
+                <li> <span class="highlight-text">Bogura, sadar bogura.</span></li>
+              </span>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom section -->
+      <section>
+        <figure class="text-center mt-5">
+          <blockquote class="blockquote">
+            <p>Team Hungry Copyright 2024</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Devloper Team <cite title="Source Title">Hungry/Bogura>
+          </figcaption>
+        </figure>
+       </section>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

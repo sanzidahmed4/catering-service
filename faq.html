@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry | FAQ</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/faq.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Hungry</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="faq.html">FAQ</a>
+                  </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="faq-container">
+        <div class="head">
+          <h1>FAQ</h1>
+        <p>These are the most freequently asked Questions. If you have any question please contact us.</p>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>What is the specialty of your food?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Our food is crafted with fresh, locally sourced ingredients, blending traditional flavors with a modern twist.
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Do you offer vegan options?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Yes, we offer a wide variety of vegan dishes, ensuring flavor without compromise.
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>What are your restaurant hours?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            We’re open from 10:00 AM to 10:00 PM, Monday through Sunday.
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Do you provide delivery services?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Yes, we offer fast delivery through our own service and multiple food delivery partners.
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Are reservations required?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            While reservations are not required, we recommend booking in advance on weekends.
+          </div>
+        </div>
+      </div>
+      <!-- Bottom section -->
+      <section>
+        <figure class="text-center mt-5">
+          <blockquote class="blockquote">
+            <p>Team Hungry Copyright 2024</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Devloper Team <cite title="Source Title">Hungry/Bogura>
+          </figcaption>
+        </figure>
+       </section>
+    
+      <script>
+        function toggleFaq(element) {
+          const answer = element.nextElementSibling;
+          const toggleIcon = element.querySelector('.faq-toggle');
+          answer.classList.toggle('show');
+          toggleIcon.classList.toggle('open');
+        }
+      </script>
+    
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

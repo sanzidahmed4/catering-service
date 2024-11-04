@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry | home</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <i class="fa-solid fa-burger" style="font-size: 20px; color:orange;"></i>Hungry</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" style="height:500px;" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner h-100">
+                  <div class="carousel-item active h-100 object-fit-cover">
+                    <img src="images/food.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  <div class="carousel-item h-100 object-fit-cover">
+                    <img src="images/pasta-spaghetti-with-shrimps-sauce.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  <div class="carousel-item h-100 object-fit-cover">
+                    <img src="images/penne-pasta-tomato-wooden-table.jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </header>
+        <!--Food menu session-->
+       <section>
+        <div class="section-heading">
+            <h3>Food <span>Menu</span></h3>
+        </div>
+        <div class="menu-card-container mt-5 d-flex justify-content-center gap-4 container">
+            <div class="menu-card">
+                <img src="images/tika.jpg" alt="tika kabab">
+                <div class="menu-content">
+                    <h3>Tika kabab</h3>
+                    <h5>8TK</h5>
+                    <!-- <p>You can order our tika kabab at the evening. This is the best item to make your evening better with friends. Spend good time with hot spicy tika kabab. Only 10 taka per piece.</p> -->
+                    <div class="d-flex justify-content-evenly align-items-center">
+                      <button class="btn border external">Order now</button>
+                      <i class="fa-solid fa-circle-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="images/chicken_carry.jpg" alt=" chicken carry">
+                <div class="menu-content">
+                    <h3>Chicken Carry</h3>
+                    <h5>250TK</h5>
+                    <!-- <p>Best for your Lunch & Dinner. You can get always best quality food for your every order.And this also a famous item in our menu. Order only 70TAKA per boul with instant delivery.</p> -->
+                    <div class="d-flex justify-content-evenly align-items-center">
+                      <button class="btn border external">Order now</button>
+                      <i class="fa-solid fa-circle-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="images/chiken_roll.jpg" alt="Vesigable roll">
+                <div class="menu-content">
+                    <h3>Vegetable Roll</h3>
+                    <h5>25TK</h5>
+                    <!-- <p>Fresh vesitables roll only for 10TAKA per piece. Home delivery avilabe. If you order 5 or more roll you can gen 15% discount on specil promo code "EVENING-HOUR10"</p> -->
+                    <div class="d-flex justify-content-evenly align-items-center">
+                      <button class="btn border external">Order now</button>
+                      <i class="fa-solid fa-circle-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="images/fuchka.jpg" alt="fuchka">
+                <div class="menu-content">
+                    <h3>Fuchka 1Plate</h3>
+                    <h5>150TK</h5>
+                    <!-- <p>You can try the best fuchka item from us on this town. And our Fuchka is avilabe on 4pm to 11pm. Home delivery avilabe. If you order multiples paket you can gen free delivery.</p> -->
+                    <div class="d-flex justify-content-evenly align-items-center">
+                      <button class="btn border external">Order now</button>
+                      <i class="fa-solid fa-circle-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!--Feedback session-->
+       <section>
+        <div class="section-heading">
+            <h3><span>Customer</span> Feedback</h3>
+        </div>
+      <div class="d-flex justify-content-center  container">
+          <div class="customer-feedback-container">
+            <div class="feedback-card">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad recusandae explicabo quis eum natus officiis delectus ipsum deserunt, fugiat sapiente, praesentium commodi placeat quae nihil unde incidunt, enim nisi! Sequi, ipsam. Enim nulla laudantium animi!</p>
+                <div class="feedback-content">
+                    <img src="images/IMG_0465.JPG" height="50px" width="50px" alt="">
+                    <div>
+                        <h3>Sanzid Ahmed</h3>
+                        <h5>Web Devloper</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customer-feedback-container ">
+            <div class="feedback-card mx-1">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad recusandae explicabo quis eum natus officiis delectus ipsum deserunt, fugiat sapiente, praesentium commodi placeat quae nihil unde incidunt, enim nisi! Sequi, ipsam. Enim nulla laudantium animi!</p>
+                <div class="feedback-content">
+                    <img src="images/IMG_0465.JPG" height="50px" width="50px" alt="">
+                    <div>
+                        <h3>Sanzid Ahmed</h3>
+                        <h5>Web Devloper</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customer-feedback-container ">
+            <div class="feedback-card">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad recusandae explicabo quis eum natus officiis delectus ipsum deserunt, fugiat sapiente, praesentium commodi placeat quae nihil unde incidunt, enim nisi! Sequi, ipsam. Enim nulla laudantium animi!</p>
+                <div class="feedback-content">
+                    <img src="images/IMG_0465.JPG" height="50px" width="50px" alt="">
+                    <div>
+                        <h3>Sanzid Ahmed</h3>
+                        <h5>Web Devloper</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+       </section>
+       <section>
+        <div class="section-heading">
+          <h3>Image <span>Gallery</span></h3>
+      </div>
+      <div class="container">
+        <div class="image-gallery">
+          <img src="images/bangla_food.jpg" alt="">
+          <img src="images/bangla.jpg" alt="">
+          <img src="images/Burger.jpg" alt="">
+          <img src="images/Chawmin.jpg" alt="">
+          <img src="images/pizza.jpg" alt="">
+          <img src="images/sweet_paper.jpg" alt="">
+          <img src="images/FB_IMG_17233908189961456.jpg" alt="">
+          <img src="images/FB_IMG_17233908821089270.jpg" alt="">
+          <img src="images/food.jpg" alt="">
+          <img src="images/fuchka.jpg" alt="">
+          <img src="images/momos.jpg" alt="">
+          <img src="images/ta.jpg" alt="">
+        </div>
+      </div>
+       </section>
+       <!-- Bottom section -->
+       <section>
+        <figure class="text-center mt-5">
+          <blockquote class="blockquote">
+            <p>Team Hungry Copyright 2024</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Devloper Team <cite title="Source Title">Hungry/Bogura>
+          </figcaption>
+        </figure>
+       </section>
+      </main>
+      <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
